@@ -1,0 +1,74 @@
+table{
+    border-spacing: 20px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    cursor: pointer;
+    color: rgb(211, 28, 28);
+    text-decoration: none;
+    -webkit-apperance: none;
+    background-color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+td, th {
+    border: 3px solid black;
+}
+
+.border-top, .corner-top-left,
+.corner-top-right{
+    border-top: none;
+}
+
+.corner-top-left, 
+.border-left, 
+.corner-bottom-left {
+
+    border-left:none;
+}
+
+.corner-bottom-left,
+.border-bottom,
+.corner-bottom-right{
+    border-bottom: none;
+}
+
+.corner-bottom-right,
+.border-right,
+.corner-top-right{
+    border-right: none;
+}
+
+#display{
+    height: 100px;
+    border: none;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+.clear{
+    border-right: none;
+}
+
+
+
+#clear-all,#divide,#subtract{
+    border: none;
+    border-left: 3px solid black;
+}
+
+#clear1, #multiply, #add{
+    border: none;
+}
